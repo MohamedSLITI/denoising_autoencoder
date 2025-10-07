@@ -64,5 +64,3 @@ def update(frame):
 ani = FuncAnimation(fig, update, frames=20, interval=400)
 ani.save("denoising_autoencoder.gif", writer="pillow", fps=2)
 plt.close()
-
-print("✅ GIF saved as 'denoising_autoencoder.gif'")
